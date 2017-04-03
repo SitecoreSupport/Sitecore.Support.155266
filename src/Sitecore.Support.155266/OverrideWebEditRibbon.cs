@@ -16,7 +16,7 @@ namespace Sitecore.Support.ExperienceEditor.Speak.Ribbon.Pipelines.GetExperience
 
         public new void Process(GetExperienceEditorRibbonArgs args)
         {
-            var c = args.Control as RibbonWebControl;
+            var c = args.Control as Sitecore.ExperienceEditor.Speak.Ribbon.PageExtender.RibbonWebControl;
             if (c != null)
             {
                 args.Control = new RibbonWebControl
